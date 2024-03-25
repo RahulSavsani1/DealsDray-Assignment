@@ -1,0 +1,136 @@
+/* .App{
+
+} */
+
+.main-container{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-container{
+    padding: 10px 20px;
+    border-bottom: 1px solid gray;
+}
+
+.body-container{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-sub-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+}
+
+.body-header{
+    background: yellow;
+    border: 1px solid yellow;
+    padding: 10px;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    border-radius: 6px 6px 0 0;
+}
+.body-content{
+    border: 1px solid yellow;
+    /* width: 100%; */
+    padding: 10px;
+    border-radius: 0 0 6px 6px;
+}
+.body-content form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+}
+
+.submit-container{
+    display: flex;
+    justify-content: center;
+}
+.submit-container button{
+    padding: 10px;
+    width: 100px;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    gap: 8px;
+}
+.input-container input{
+    padding: 8px;
+    width: 265px;
+}
+
+.home-header-container{
+    display: flex;
+    padding: 10px;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 100%; */
+    border-bottom: 1px solid gray;
+}
+.home-header-left-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+.home-header-btn{
+    padding: 10px 20px;
+    background: yellow;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+
+.home-header-btn:hover{
+    background: rgb(255, 234, 0);
+}
+
+.landing-page-container{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.landing-page-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 100px; */
+}
+
+.landing-page-header{
+    padding: 10px;
+    background: yellow;
+    display: flex;
+    flex: 1;
+    /* width: 100%; */
+}
+
+.employe-page-body{
+    padding: 20px 50px;
+}
+
+.employe-submit-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 80px;
+}
+.employe-submit-container button{
+    padding: 9px;
+    width: 100px;
+}
